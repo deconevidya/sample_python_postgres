@@ -1,7 +1,11 @@
 language: python
 
-build_image: drydock/u14pytpls:prod
+#build_image: drydock/u14pytpls:prod
 
+build_image: drydock/u14pyt:ci
+services:
+  - postgres
+  
 python:
    - 2.7
    - 2.6
