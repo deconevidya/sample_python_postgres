@@ -1,6 +1,6 @@
 language: python
 
-build_image: drydock/u14pytpls:tip
+build_image: drydock/u12pytpls: prod
 
 #build_image: drydock/u14pyt:ci
 services:
