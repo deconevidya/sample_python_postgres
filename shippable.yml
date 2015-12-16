@@ -7,6 +7,9 @@ python:
 install:
   - pip install -r requirements.txt
 
+addons:
+  postgresql: 9.3
+  
 services:
   #- mysql
   - postgres
